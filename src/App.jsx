@@ -4,6 +4,7 @@ import Services from "./components/Services"
 import About from "./components/About"
 import Gallery from "./components/Gallery"
 import Training from "./components/Training"
+import Footer from "./components/Footer"
 
 /*
   Main App Component
@@ -91,6 +92,9 @@ function App() {
 
             {/* Training section */}
             <Training />
+
+            {/* Footer section */}
+            <Footer />
 
         </main>
     )
